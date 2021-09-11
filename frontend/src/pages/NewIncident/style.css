@@ -1,0 +1,52 @@
+.new-incident-container {
+    width: 60%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 3% auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-incident-container {
+    height: 60%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-incident-container section {
+    width: 100%;
+    max-width: 380px;
+}
+
+.new-incident-container section img {
+    height: 124px;
+}
+
+.new-incident-container section h1 {
+    margin: 34px 0 32px;
+    font-size: 24px;
+}
+
+.new-incident-container section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.new-incident-container form {
+    width: 100%;
+    max-width: 450px;
+}
+
+.new-incident-container form input,
+.new-incident-container form textarea {
+    margin-top: 8px;
+}
